@@ -1,0 +1,55 @@
+body {
+  margin: ;
+  background-image: url("./asset/coffee\ bg.png");
+}
+
+.site-header {
+  display: flex;                /* Use flexbox for layout */
+  justify-content: space-between; /* Space between logo and nav */
+  align-items: center;         /* Center items vertically */
+  background-color: darkgrey;  /* Background color */
+  padding: 10px 20px;         /* Padding around header */
+}
+
+  .logo > h1 {
+    margin: 0;
+    font-family: "Tangerine";
+    font-weight: 90px;
+    font-size: 100px;
+  }
+
+  .class1 > p {
+    font-family: "Akaya Kanadaka";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+  }
+
+.navigation ul {
+  list-style-type: none;      /* Remove default list styles */
+  margin: ;                  /* Remove default margin */
+  padding: ;                 /* Remove default padding */
+  display: flex;              /* Use flexbox for horizontal layout */
+}
+
+.navigation li {
+  margin-left: 20px;          /* Space between items */
+}
+
+.navigation a {
+  text-decoration: none;       /* Remove underline */
+  color: white;               /* Link text color */
+  padding: 8px 16px;          /* Padding around links */
+  border-radius: 4px;         /* Rounded corners */
+}
+
+.navigation a:hover {
+  background-color: #45a049;  /* Background color on hover */
+}
+
+popular-tags .tags {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  list-style: none;
+}
